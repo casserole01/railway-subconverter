@@ -21,7 +21,7 @@ jobs:
 
     - name: Update sub-web
       run: |
-        git clone https://github.com/CareyWang/sub-web.git
+        git clone https://github.com/Dashaguo/sub-web.git
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
@@ -45,7 +45,7 @@ jobs:
       with:
         author_name: GitHub Action
         author_email: noreply@github.com
-        message: "Update sub-web"
+        message: "Update from Dashaguo/sub-web"
         add: "-A"
       env:
         token: ${{ secrets.GITHUB_TOKEN }}
