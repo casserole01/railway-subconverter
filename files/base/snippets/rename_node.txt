@@ -1,0 +1,18 @@
+;Blinkload
+ \| Media@
+ \| Shenzhen@
+
+;Exflux
+游戏专线@Game
+
+;times RE
+\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
+
+;厘米云
+\(.*\)@
+
+;Maying
+-BGP@
+-NF@
+-NF\*@
+-NBU\*@

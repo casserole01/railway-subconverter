@@ -1,0 +1,18 @@
+# Blinkload
+[[rename_node]]
+match = ' \| Media'
+replace = ""
+
+[[rename_node]]
+match = ' \| Shenzhen'
+replace = ""
+
+# Exflux
+[[rename_node]]
+match = "游戏专线"
+replace = "Game"
+
+# times RE
+[[rename_node]]
+match = '\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?'
+replace = "$1x"

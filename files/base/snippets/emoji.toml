@@ -1,0 +1,187 @@
+[[emoji]]
+match = "(Ascension|阿森松)"
+emoji = "🇦🇨"
+
+[[emoji]]
+match = "(Argentina|阿根廷)"
+emoji = "🇦🇷"
+
+[[emoji]]
+match = "(Austria|Vienna|奥地利|维也纳)"
+emoji = "🇦🇹"
+
+[[emoji]]
+match = "(Australia|AUS|Sydney|土澳|澳大利亚|澳洲|悉尼)"
+emoji = "🇦🇺"
+
+[[emoji]]
+match = "(Belgium|比利时)"
+emoji = "🇧🇪"
+
+[[emoji]]
+match = "(Brazil|Paulo|GBR|巴西|圣保罗)"
+emoji = "🇧🇷"
+
+[[emoji]]
+match = "(Canada|Montreal|Vancouver|CAN|加拿大|蒙特利尔|温哥华|楓葉|枫叶)"
+emoji = "🇨🇦"
+
+[[emoji]]
+match = "(Switzerland|Zurich|瑞士|苏黎世)"
+emoji = "🇨🇭"
+
+[[emoji]]
+match = "(Germany|DEU|DE|法兰克福|德)"
+emoji = "🇩🇪"
+
+[[emoji]]
+match = "(Denmark|丹麦)"
+emoji = "🇩🇰"
+
+[[emoji]]
+match = "(Spain|ESP|西班牙)"
+emoji = "🇪🇸"
+
+[[emoji]]
+match = "(Europe|欧洲)"
+emoji = "🇪🇺"
+
+[[emoji]]
+match = "(Finland|Helsinki|芬兰|赫尔辛基)"
+emoji = "🇫🇮"
+
+[[emoji]]
+match = "(France|Paris|FRA|法国|巴黎)"
+emoji = "🇫🇷"
+
+[[emoji]]
+match = "(Hungary|匈牙利)"
+emoji = "🇭🇺"
+
+[[emoji]]
+match = "(Indonesia|Jakarta|印尼|印度尼西亚|雅加达)"
+emoji = "🇮🇩"
+
+[[emoji]]
+match = "(Ireland|Dublin|爱尔兰|都柏林)"
+emoji = "🇮🇪"
+
+[[emoji]]
+match = "(Iceland|ISL|冰岛)"
+emoji = "🇮🇸"
+
+[[emoji]]
+match = "(New Zealand|新西兰|纽西兰)"
+emoji = "🇳🇿"
+
+[[emoji]]
+match = "(Norway|挪威)"
+emoji = "🇳🇴"
+
+[[emoji]]
+match = "(曼岛|马恩岛)"
+emoji = "🇮🇲"
+
+[[emoji]]
+match = "(Israel|以色列)"
+emoji = "🇮🇱"
+
+[[emoji]]
+match = "(India|Mumbai|IND|印度|孟买)"
+emoji = "🇮🇳"
+
+[[emoji]]
+match = "(Italy|Milan|意大利|米兰)"
+emoji = "🇮🇹"
+
+[[emoji]]
+match = "(Japan|JPN|JP|Tokyo|Osaka|Saitama|日本|东京|大阪|埼玉|[^-]日)"
+emoji = "🇯🇵"
+
+[[emoji]]
+match = "(North.*?Korea|朝鲜)"
+emoji = "🇰🇵"
+
+[[emoji]]
+match = "(Korea|KOR|KR|首尔|韩|韓)"
+emoji = "🇰🇷"
+
+[[emoji]]
+match = "(Macao|澳门|CTM)"
+emoji = "🇲🇴"
+
+[[emoji]]
+match = "(Mexico|墨西哥)"
+emoji = "🇲🇽"
+
+[[emoji]]
+match = "(Malaysia|马来西亚)"
+emoji = "🇲🇾"
+
+[[emoji]]
+match = "(Netherlands|NLD|荷兰|阿姆斯特丹)"
+emoji = "🇳🇱"
+
+[[emoji]]
+match = "(Philippines|菲律宾)"
+emoji = "🇵🇭"
+
+[[emoji]]
+match = "(Romania|POL|罗马尼亚)"
+emoji = "🇷🇴"
+
+[[emoji]]
+match = "(Arabia|沙特)"
+emoji = "🇸🇦"
+
+[[emoji]]
+match = "(Dubai|迪拜)"
+emoji = "🇦🇪"
+
+[[emoji]]
+match = "(Sweden|DNK|瑞典)"
+emoji = "🇸🇪"
+
+[[emoji]]
+match = "(Thailand|泰国|曼谷)"
+emoji = "🇹🇭"
+
+[[emoji]]
+match = "(Turkey|土耳其|伊斯坦布尔)"
+emoji = "🇹🇷"
+
+[[emoji]]
+match = "(Vietnam|越南)"
+emoji = "🇻🇳"
+
+[[emoji]]
+match = "(Africa|南非)"
+emoji = "🇿🇦"
+
+[[emoji]]
+match = "(?i:UK|England|United.*?Kingdom|London|英国|[^-]英|伦敦)"
+emoji = "🇬🇧"
+
+[[emoji]]
+match = "(?i:SG|Singapore|新加坡|狮城|[^-]新)"
+emoji = "🇸🇬"
+
+[[emoji]]
+match = "(?i:RU|Russia|Moscow|Petersburg|Siberia|伯力|莫斯科|圣彼得堡|西伯利亚|新西伯利亚|哈巴罗夫斯克|俄罗斯|[^-]俄)"
+emoji = "🇷🇺"
+
+[[emoji]]
+match = "(?i:US|America|United.*?States|美国|[^-]美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|阿什本)"
+emoji = "🇺🇲"
+
+[[emoji]]
+match = "(?i:TW|Taiwan|新北|彰化|CHT|台湾|[^-]台|HINET)"
+emoji = "🇹🇼"
+
+[[emoji]]
+match = "(?i:HK|Hong.*?Kong|HKT|HKBN|HGC|WTT|CMI|[^-]港)"
+emoji = "🇭🇰"
+
+[[emoji]]
+match = "(?i:CN|China|回国|中国|江苏|北京|上海|广州|深圳|杭州|常州|徐州|青岛|宁波|镇江|成都|back)"
+emoji = "🇨🇳"
