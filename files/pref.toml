@@ -1,7 +1,7 @@
 version = 1
 [common]
 # API mode, set to true to prevent loading local subscriptions or serving local files directly
-api_mode = false
+api_mode = true
 
 # Access token used for performing critical action through Web interface
 api_access_token = "password"
@@ -138,8 +138,6 @@ clash_use_new_field_name = true
 clash_proxies_style = "flow"
 
 [[node_pref.rename_node]]
-#match = '\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?'
-#replace = "$1x"
 import = "snippets/rename_node.toml"
 
 [managed_config]
@@ -147,7 +145,7 @@ import = "snippets/rename_node.toml"
 write_managed_config = true
 
 # Address prefix for MANAGED-CONFIG info, without the trailing "/".
-managed_config_prefix = "http://127.0.0.1:25500"
+managed_config_prefix = ""
 
 # Managed config update interval in seconds, determine how long the config will be updated.
 config_update_interval = 86400
@@ -167,8 +165,6 @@ add_emoji = false
 remove_old_emoji = true
 
 [[emojis.emoji]]
-#match = '(流量|时间|应急)'
-#emoji = '🏳️‍🌈'
 import = "snippets/emoji.toml"
 
 # [[custom_groups]]
@@ -206,12 +202,6 @@ overwrite_original_rules = false
 
 # Perform a ruleset update on request
 update_ruleset_on_request = false
-
-# [[rulesets]]
-# group = "Proxy"
-# ruleset = "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list"
-# type = "surge-ruleset"
-# interval = 86400
 
 [[rulesets]]
 import = "snippets/rulesets.toml"
@@ -304,11 +294,11 @@ target = "/render?path=templates/test.tpl"
 [server]
 listen = "0.0.0.0"
 port = 25500
-serve_file_root = "web"
+serve_file_root = "dist"
 
 [advanced]
-log_level = "debug"
-print_debug_info = true
+log_level = "info"
+print_debug_info = false
 max_pending_connections = 10240
 max_concurrent_threads = 4
 max_allowed_rulesets = 64
@@ -319,5 +309,5 @@ cache_subscription = 60
 cache_config = 300
 cache_ruleset = 21600
 script_clean_context = true
-async_fetch_ruleset = false
+async_fetch_ruleset = true
 skip_failed_links = true
