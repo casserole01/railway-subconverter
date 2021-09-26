@@ -127,6 +127,10 @@ match = "(Philippines|菲律宾)"
 emoji = "🇵🇭"
 
 [[emoji]]
+match = "(Pakistan|巴基斯坦)"
+emoji = "🇵🇰"
+
+[[emoji]]
 match = "(Romania|POL|罗马尼亚)"
 emoji = "🇷🇴"
 
